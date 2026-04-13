@@ -50,23 +50,6 @@ python 8_puzzle.py
 
 ## 🖥️ Interface Overview
 
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  HEADER  — title · algorithm name · keyboard hint               │
-├──────────────┬──────────────────────┬───────────────────────────┤
-│  LEFT PANEL  │  CENTER PANEL        │  RIGHT PANEL              │
-│              │  ┌────────────────┐  │                           │
-│ Puzzle Input │  │ 🧩 Solver tab  │  │  Search Tree Canvas       │
-│ Quick Pres.  │  │  · Tile board  │  │  (zoom · pan · tooltips)  │
-│ Settings     │  │  · Navigation  │  │                           │
-│ Solve btn    │  ├────────────────┤  │  Legend bar               │
-│              │  │ 📖 A* Guide tab│  │                           │
-│              │  │  · Explanation │  │                           │
-│              │  └────────────────┘  │                           │
-├──────────────┴──────────────────────┴───────────────────────────┤
-│  STATUS BAR — live feedback                                      │
-└─────────────────────────────────────────────────────────────────┘
-```
 >![GUI](8solve.jpg)
 
 ### Left Panel — Controls
