@@ -32,13 +32,19 @@ sudo apt-get install python3-tk
 # Windows — bundled with Python installer
 ```
 
+### Installation
+
+Ensure you have the required libraries installed:
+
+```bash
+pip install -r requirements.txt
+```
+
 ### Run
 
 ```bash
-python jeux_de_taquin_redesigned.py
+python 8_puzzle.py
 ```
-
-No additional packages required.
 
 ---
 
@@ -61,6 +67,7 @@ No additional packages required.
 │  STATUS BAR — live feedback                                      │
 └─────────────────────────────────────────────────────────────────┘
 ```
+>![GUI](8solve.jpg)
 
 ### Left Panel — Controls
 
@@ -194,8 +201,9 @@ Solvable  ⟺  inversions is EVEN
 ## 🗂️ Project Structure
 
 ```
-jeux_de_taquin_redesigned.py    # Main application (single file)
-README.md                        # This file
+8_puzzle.py          # Main application (single file)
+requirements.txt     # Required libraries
+README.md            # This file
 ```
 
 ### Code Structure
